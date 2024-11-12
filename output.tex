@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage{graphicx} % For including graphics
+\usepackage{booktabs} % For better tables
+\documentclass{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+\section{Data Visualization}
+
+\subsection{Histogram of Gender vs Heart Disease}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{gender_histogram.png}
+    \caption{Histogram showing the number of people with heart disease by gender.}
+    \label{fig:gender_histogram}
+\end{figure}
+
+As shown in Figure \ref{fig:gender_histogram}, there is a significant difference in heart disease prevalence between genders.
+
+\subsection{Correlation Between Age and Blood Pressure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{age_bp_correlation.png}
+    \caption{Correlation between Age and Blood Pressure.}
+    \label{fig:age_bp}
+\end{figure}
+
+Figure \ref{fig:age_bp} illustrates the relationship between age and blood pressure.
+
+\subsection{Correlation Between Age and Cholesterol}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{age_cholesterol_correlation.png}
+    \caption{Correlation between Age and Cholesterol for individuals without heart disease.}
+    \label{fig:age_cholesterol}
+\end{figure}
+
+The data presented in Figure \ref{fig:age_cholesterol} indicates how cholesterol levels vary with age among non-heart disease patients.
+
+\end{document}
